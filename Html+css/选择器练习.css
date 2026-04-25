@@ -1,0 +1,20 @@
+/* 把所有p类和div元素标aqua色 */
+.p,div{
+    color: aqua;
+}
+
+/* 把三个p元素后面的div给标红 */
+div~div{
+    color: red;
+}
+
+/* 把div元素后面的div元素标紫 */
+div+div{
+    color: purple;
+}
+
+/* 把div中的所有div标黑 */
+div div{
+    color:black;
+}
+
